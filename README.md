@@ -77,4 +77,21 @@ We saved the performance results in a json and best model in a pkl file to use i
 
 This project successfully demonstrated that machine learning can be effectively applied to robot navigation using real-world sensor data. After evaluating and tuning multiple classifiers, we found that the Random Forest model offers the best performance with an F1-score of 99.63%. Through careful data preprocessing, hyperparameter tuning, and metric selection, we were able to build a robust and highly accurate model for predicting robot movement.
 
+##  Required Packages
 
+The following packages are required:
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+joblib
+
+```bash
+# Install necessary Python packages
+pip install numpy pandas matplotlib seaborn scikit-learn joblib
+```
+
+##  Running
+
+To run the project you just need to run the cells of the jupyter notebook file. Please make sure the dataset is in the same folder as the ipynb file.
